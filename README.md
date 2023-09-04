@@ -4,7 +4,7 @@
 local DynamicImageCurves = require(--[[ Path To Module Here ]])
 
 local sizeX, sizeY = 200, 200
-local image = DynamicImageLib(sizeX, sizeY)
+local image = DynamicImageCurves(sizeX, sizeY)
 
 local imageLabel: ImageLabel = image:InstantiateAsLabel()
 ```
