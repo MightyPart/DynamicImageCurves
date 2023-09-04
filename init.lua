@@ -3,7 +3,7 @@ local Image = {}; Image.__index = Image
 
 --> Helper Functions -----------------------------------------------------------------------------
 local function CreatePixels(amount, r,g,b, alpha)
-	local pixels = table.create(amount)
+	local pixels = table.create(amount * 4)
 	for count = 1, amount do
 		table.insert(pixels, r)
 		table.insert(pixels, g)
