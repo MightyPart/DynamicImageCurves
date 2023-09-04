@@ -1,7 +1,7 @@
 # Getting Started
 
 ```lua
-local DynamicImageLib = require(--[[ Path To Module Here ]])
+local DynamicImageCurves = require(--[[ Path To Module Here ]])
 
 local sizeX, sizeY = 200, 200
 local image = DynamicImageLib(sizeX, sizeY)
